@@ -88,9 +88,9 @@ git clone https://github.com/AFTABANANTAM/SkillSage.git
 
 ---
 
-## 📸 Screenshots (Optional)
+## 📸 Screenshots
 
-- Insert dashboard, forum, mentor profile images, etc.
+- 
 
 ---
 
