@@ -4,71 +4,101 @@ $(document).ready(function () {
   
     $("#invisible-content").hide();
   
-    // Beginner Level: Score 0–4
+    // Beginner Level: Score 0–5
     if (score >= 0 && score <= 5) {
       document.getElementById(
         "visible-feedback"
-      ).innerHTML = `<p>You're just starting your journey into blockchain, and that's great! Start by understanding blockchain basics: decentralization, blocks, and mining. Experiment with crypto wallets and testnets. Learn Solidity for smart contracts and explore decentralized apps (DApps). Stay updated with resources like CryptoZombies, Coursera, and GitHub. Focus on security, join communities, and practice building projects for hands-on experience.</p>
+      ).innerHTML = `<p>Start by exploring <b>Beginner-friendly</b> tutorials and courses. Consistent practice is key—build small projects to gain hands-on experience and reinforce your learning. Experiment with different datasets to understand how different algorithms work. Stay curious and keep learning progressively!</p>
               <p>Refer this: 👇</p>
   <ul class="info">
-      <<li> <span style="font-weight:600">Understand What Blockchain Is</span>
-              Learn the basic concept: a decentralized, immutable digital ledger.</li>
-
-            <li><span style="font-weight:600">Learn How Blockchain Works</span>
-              Study blocks, chains, hashing, consensus mechanisms, and mining.
-            </li>
+      <li><span style="font-weight:600">💎Understand AI and ML Basics:</span>
+          <ul class="sub-info">
+              <li>👉 <b>AI</b>: Creating systems that simulate human intelligence.</li>
+              <li>👉 <b>ML</b>: A subset of AI where systems learn from data.</li>
+              <li>👉 Learn Python and key libraries (NumPy, Pandas, Matplotlib).</li>
+          </ul>
+      </li>
+      <li><span style="font-weight:600">💎Core Data Science Concepts:</span>
+          <ul class="sub-info">
+            <li>👉 Data collection, cleaning, and preprocessing.</li>
+            <li>👉 Exploratory Data Analysis (EDA).</li>
+          </ul>  
+      </li>
   </ul>`;
   
-      document.getElementById("invisible-feedback").innerHTML = 
-   `<ul class="info">
-      <li><span style="font-weight:600">Understand Cryptography Basics</span>Public/private keys, digital signatures, and encryption (SHA-256).</li>
-
-            <li><span style="font-weight:600">Explore Bitcoin</span>
-              The first blockchain application. Learn how it works and why it matters.
-            </li>
-
-    </ul>`;
+      document.getElementById("invisible-feedback").innerHTML = `<ul class="info">
+      <li><span style="font-weight:600">💎Deepen Your Knowledge:</span>
+          <ul class="sub-info">
+              <li>👉 Learn about deep learning and neural networks (CNNs, RNNs).</li>
+              <li>👉 Try building small interactive features (e.g., to-do list or quiz app).</li>
+          </ul>
+      </li>
+      <li><span style="font-weight:600">💎Learn essential tools:</span>
+          <ul class="sub-info">
+              <li>👉 Use Visual Studio Code as your code editor.</li>
+              <li>👉 Explore TensorFlow and PyTorch.</li>
+          </ul>
+      </li>
+      <li><span style="font-weight:600">💎Stay Updated</span>
+          <ul class="sub-info">
+              <li>👉 Join AI/ML communities, read research papers, and contribute to open-source projects.</li>
+          </ul>
+      </li>
+  </ul>`;
     }
   
-    // Intermediate Level: Score 5–8
-    else if (score > 5 && score <= 10) {
+
+    //advanced level : level(6-10)
+    else if (score >= 6 && score <= 10) {
       document.getElementById(
         "visible-feedback"
-      ).innerHTML = `<p>You have in-depth knowledge of blockchain, now you need to dive into building and optimizing decentralized applications (DApps) using frameworks like Hardhat or Truffle. Master blockchain scaling solutions (e.g., Layer 2, sharding), explore consensus mechanisms (e.g., Proof of Stake, Proof of Authority), and contribute to open-source blockchain projects. Stay current with protocol upgrades and cross-chain interoperability.</p>
+      ).innerHTML = `<p>For<b>advanced learners</b>in AI/ML, deepen your expertise by exploring complex models like deep learning and reinforcement learning. Master frameworks such as TensorFlow or PyTorch. Focus on advanced topics like generative adversarial networks (GANs), natural language processing (NLP), and AI ethics. Continue building real-world projects, contributing to research, and refining your skills with cutting-edge techniques.</p>
               <p>Refer this: 👇</p>
   <ul class="info">
-      <li><span style="font-weight:900">Master Blockchain Architecture:</span>
-              Understand consensus algorithms in depth: PoW, PoS, DPoS, PBFT, and newer models like PoH (Solana) and explore scalability solutions: sharding, sidechains, and rollups.
-            </li>
-
-            <li><span style="font-weight:900">Advanced Smart Contract Development:</span>
-               Implement dynamic routing, deep linking, and navigation stacks.
-            </li>
+      <li><span style="font-weight:600">💎Master Core Machine Learning Algorithms:</span>
+          <ul class="sub-info">
+              <li>👉 Advanced Supervised Learning: Gradient Boosting (XGBoost, LightGBM), SVMs, ensemble methods.</li>
+              <li>👉 Unsupervised Learning: Advanced clustering (DBSCAN, hierarchical), anomaly detection, and dimensionality reduction (t-SNE, UMAP).</li>
+          </ul>
+      </li>
+      <li><span style="font-weight:600">💎Deep Learning Mastery:</span>
+          <ul class="sub-info">
+              <li>👉 Neural Networks: Understanding and building deep neural networks, CNNs, RNNs, LSTMs, and transformers.</li>
+              <li>👉 Advanced Topics: GANs (Generative Adversarial Networks), attention mechanisms, and self-supervised learning.</li>
+          </ul>
+      </li>
   </ul>`;
   
-      document.getElementById("invisible-feedback").innerHTML = 
-      `<ul class="info">
-      <li><span style="font-weight:900">Explore Layer 2 Solutions:</span>
-              Dive into Layer 2 scaling technologies like Optimistic Rollups, zk-Rollups, Arbitrum, and Polygon.
-             </li>
-
-             <li><span style="font-weight:900">Decentralized Finance (DeFi):</span>
-              Study protocols like Uniswap, Aave, Compound, and Curve
-             </li>
-
-
+      document.getElementById("invisible-feedback").innerHTML = `<ul class="info">
+      <li><span style="font-weight:600">💎Computer Vision:</span>
+          <ul class="sub-info">
+              <li>👉 Learn Node.js with Express, or Python with Django/Flask.</li>
+              <li>👉 Understand REST APIs, databases, and basic authentication.</li>
+          </ul>
+      </li>
+      <li><span style="font-weight:600">💎Work with tools:</span>
+          <ul class="sub-info">
+              <li>👉 Advanced NLP Models: Transformers, BERT, GPT, and T5 architectures.</li>
+              <li>👉 Preprocessing and Tokenization: Advanced techniques in text normalization, stemming, lemmatization, and Word2Vec/Glove embeddings.</li>
+          </ul>
+      </li>
+      <li><span style="font-weight:600">💎Explore Cutting-Edge Areas:</span>
+          <ul class="sub-info">
+              <li>👉 AutoML and Neural Architecture Search (NAS): Automating model selection and hyperparameter tuning.</li>
+              <li>👉 Quantum Machine Learning: Understanding quantum computing principles and how they apply to ML algorithms.</li>
+          </ul>
+      </li>
   </ul>`;
     }
   
-
-  
+    
     // Toggle functionality
     $("#showMore").click(function () {
       if ($("#invisible-content").is(":visible")) {
-        $("#invisible-content").slideUp(500);
+        $("#invisible-content").slideUp(5000);
         $("#showMore").text("Show More");
       } else {
-        $("#invisible-content").slideDown(500);
+        $("#invisible-content").slideDown(5000);
         $("#showMore").text("Show Less");
       }
     });

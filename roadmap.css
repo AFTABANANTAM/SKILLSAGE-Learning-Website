@@ -21,19 +21,24 @@
 }
 
 body {
-  background-color: var(--primary);
+  background-color:#3d84a8;
 }
 
 #logo{
   border:5px solid rgb(49, 158, 237);
   border-radius:50%;
 }
-
+.heading{
+  color:white;
+  text-align:center;
+  margin-top:3rem;
+  font-size:38px;
+}
 .container {
   position: relative;
   max-width: 1200px;
   height: fit-content;
-  margin: 80px auto;
+  margin: 50px auto;
 }
 
 .box {
