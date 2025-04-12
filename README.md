@@ -29,7 +29,7 @@
 
 ---
 
-## 📁 Folder Structure (Core PHP)
+## 📁 Folder Structure (Will Be Arranged Soon..)
 
 ```
 SkillSage/
