@@ -1,6 +1,6 @@
 # SKILLSAGE - "WHERE SKILLS MEET SAGES"
 
-Skill Sage is a smart, interactive, and mentorship-powered web platform that offers IQ-based roadmaps tailored for different technical domains. The platform guides learners from beginner to advanced levels, provides curated learning sources, and connects them with expert mentors to resolve doubts and accelerate their journey. It is designed for both students and mentors, each having their own dashboard with dedicated functionalities.
+**Skill Sage is a smart, interactive, and mentorship-powered web platform that offers IQ-based roadmaps tailored for different technical domains. The platform guides learners from beginner to advanced levels, provides curated learning sources, and connects them with expert mentors to resolve doubts and accelerate their journey. It is designed for both students and mentors, each having their own dashboard with dedicated functionalities.**
 
 ---
 
@@ -80,7 +80,7 @@ git clone https://github.com/AFTABANANTAM/SkillSage.git
    - Place project folder in `htdocs` or `www`
 
 3. **Create MongoDB Database**
-   - Import the provided `skillsage.sql` file (if available)
+   - Import the provided `skillsage.mongodb` file (if available)
    - Update database credentials in `/config/database.php`
 
 4. **Run the Project**
@@ -90,13 +90,19 @@ git clone https://github.com/AFTABANANTAM/SkillSage.git
 
 ## 📸 Screenshots
 
+Our Landing Page Hero Section:
+
+![hero-SectionLandingPage](https://github.com/user-attachments/assets/791ad444-8a3a-4f68-bbef-86d24461cd8b)
 - 
+Our LogIn Page:
+
+<img width="757" alt="image" src="https://github.com/user-attachments/assets/ade6c0ae-f24c-4ee1-a27a-4270944b2547" />
 
 ---
 
 ## ✅ Future Improvements
 
-- Websites Link Soon
+- Few Webpages Coming Soon
 - Database and Authentication Coming Soon..
 
 ---
