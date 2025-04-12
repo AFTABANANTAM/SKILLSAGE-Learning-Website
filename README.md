@@ -79,7 +79,7 @@ git clone https://github.com/AFTABANANTAM/SkillSage.git
    - Use [XAMPP](https://www.apachefriends.org/index.html).
    - Place project folder in `htdocs` or `www`
 
-3. **Create MySQL Database**
+3. **Create MongoDB Database**
    - Import the provided `skillsage.sql` file (if available)
    - Update database credentials in `/config/database.php`
 
