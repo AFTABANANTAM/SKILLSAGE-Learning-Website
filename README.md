@@ -19,9 +19,11 @@
 ## 🛠️ Tech Stack
 
 | Layer       | Technology                    |
+
 | Frontend    | HTML, CSS, JavaScript         |
 | Backend     | PHP                           |
 | Database    | MongoDB                       |
+
 | Auth        | PHP Sessions                  |
 | Hosting     | COMING SOON.....              |
 
