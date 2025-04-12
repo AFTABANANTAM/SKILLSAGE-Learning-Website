@@ -1,0 +1,108 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background:linear-gradient(to right,rgb(137, 112, 171), rgb(66, 42, 139));
+    height:100vh;
+    width:100vw;
+}
+
+.container{
+    height: 400px;
+    margin:100px auto ;
+    width:40vw;
+    background-color:white;
+    border-radius:5px;
+    padding:2rem;
+}
+.heading h2{
+    font-weight:100;
+    font-size:35px;
+    text-align:center;
+    padding:0 2rem 2rem 2rem;
+}
+.container2{
+    display:flex;
+    justify-content:space-between;
+    margin:0 5rem 3rem 5rem;
+    align-items:center;
+    background-color:rgb(232, 229, 229);
+    border-radius:30px;
+    padding-left:20px;
+}
+.container2 input{
+    padding:0.5rem;
+    /* background:linear-gradient(to right,#eeaeca,#94bbe9); */
+    background:transparent;
+    border-radius:10px;
+    border:none;
+    font-size:15px;
+    width:max-content;
+}
+.container2 input:focus{
+    outline:none;
+    border:none;
+}
+.container2 button{
+    background-color:rgb(224, 109, 42);
+    color:white;
+    border:none;
+    font-size:16px;
+    padding:0.5rem;
+    border-radius:40px;
+    cursor:pointer;
+}
+ul li{
+   list-style-type:none;
+   position:relative;
+   font-size:22px;
+   padding:12px 8px 12px 75px;
+   user-select:none;
+   cursor:pointer;
+}
+ul li::before{
+    content:'';
+    position:absolute;
+    height:28px;
+    width:28px;
+    border-radius:50%;
+    background-image:url("unchecked.png");
+    background-size:cover;
+    background-position:center;
+    top:12px;
+    left:8px;
+}
+ul li.checked{
+    text-decoration:line-through;
+}
+ul li.checked::before{
+    background-image:url("checked.png");
+    background-size:cover;
+    background-position:center;
+}
+.deleteBtn{
+    background:linear-gradient(to right,#da7a26,#d4681f);
+    color:white;
+    border:2px solid white;
+    border-radius:40px;
+    font-size:16px;
+    position:absolute;
+    padding: 0.25rem;
+    right:5rem;
+}
+.darkMode{
+    background-color:black;
+    color:white;
+}
+
+/*time Styling*/
+.timeStyle{
+    color:white;
+    border-radius:10px;
+    background-color:rgb(196, 14, 105);
+    padding:0.5rem;
+    position:fixed;
+    right:2px;
+    top:2px;
+}
