@@ -35,13 +35,13 @@
         </div>
         </div>
         <div class="hero-Right">
-            <img src="side.jpg">
+            <img src="Assets/side.jpg">
         </div>
         </div>
         <div class="About-Section" id="About">
             <div class="skills">
             <div class="about-Zone">
-            <img src="logo1.png" height="60px">
+            <img src="Assets/logo1.png" height="60px">
             <h2>About Skill Sage</h2>
             <p>Welcome to Skill Sage, a platform where we are passionate about guiding learners through structured and expert-curated learning paths in technology. Whether you're stepping into Web Development, diving into AI & Machine Learning, or exploring the future with Blockchain—our platform provides you with a clear, step-by-step roadmap to master your chosen domain.</p>
             <br>
@@ -62,23 +62,23 @@
         <section class="domains">
             <div class="domain-card" onclick="showRoadmap('web')">
               <h3>Web Development</h3>
-              <img src="/images/WebDev.png">
+              <img src="Assets/WebDev.png">
             </div>
             <div class="domain-card" onclick="showRoadmap('app')">
               <h3>App Development</h3>
-              <img src="/images/AppDev.png">
+              <img src="Assets/AppDev.png">
             </div>
             <div class="domain-card" onclick="showRoadmap('blockchain')">
               <h3>Blockchain</h3>
-              <img src="/images/blockchain.png">
+              <img src="Assets/blockchain.png">
             </div>
             <div class="domain-card" onclick="showRoadmap('ai-ml')">
               <h3>AI & ML</h3>
-              <img src="/images/AI&ML.png">
+              <img src="Assets/AI&ML.png">
             </div>
             <div class="domain-card" onclick="showRoadmap('data-science')">
               <h3>Data Science</h3>
-              <img src="/images/dataScience.png">
+              <img src="Assets/dataScience.png">
             </div>
             </section>
             <section class="mentors-section" id="mentors">
