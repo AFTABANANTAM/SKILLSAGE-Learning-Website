@@ -21,8 +21,8 @@
             <a href="#mentors">Mentors</a>
         </div>
         <div class="button">
-            <button id="signIn" onclick="window.location.href='http://localhost:8085/mongodb_php/BYTEVERSE_PROJECT/SignUp/login.php'">Sign In</button>
-            <button id="signUp" onclick="window.location.href='http://localhost:8085/mongodb_php/BYTEVERSE_PROJECT/SignUp/login.php'">Sign Up</button>
+            <button id="signIn" onclick="window.location.href='login.php'">Sign In</button>
+            <button id="signUp" onclick="window.location.href='login.php'">Sign Up</button>
         </div>
         <div class="menu-toggle" onclick="toggleMenu()"><i class="fa-solid fa-bars"></i></div>
     </div>
