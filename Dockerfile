@@ -1,18 +1,18 @@
+# Use official PHP image
 FROM php:8.2-apache
-
-# Install Composer
-COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
-
-# Enable Apache rewrite
-RUN a2enmod rewrite
 
 # Set working directory
 WORKDIR /var/www/html
 
-# Copy everything (excluding vendor)
+# Copy files
 COPY . .
 
-# Install dependencies
-RUN composer install
+# Install composer
+RUN apt-get update && apt-get install -y unzip git curl \
+    && curl -sS https://getcomposer.org/installer | php \
+    && mv composer.phar /usr/local/bin/composer
+
+# Install PHP dependencies
+RUN composer install --ignore-platform-reqs
 
 EXPOSE 80
