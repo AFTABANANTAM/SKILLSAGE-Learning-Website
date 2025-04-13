@@ -13,7 +13,7 @@
 </head>
 <body>
     <div class="navbar">
-        <img  src="logo1.png" height="100px">
+        <img  src="Assets/logo1.png" height="100px">
         <div class="nav-Headings">
             <a href="#">Home</a>
             <a href="#About">About Us</a>
@@ -31,7 +31,7 @@
             <div class="hero-content">
         <h1>One Path Doesn't Fit All - <span>Discover </span>Yours with IQ-Based Guidance.</h1>
         <p>Get personalized roadmaps based on your IQ skills,with expert mentorship to guide you every step of the way.</p>
-        <button onclick="window.location.href='/SignUp/login.html'">Explore Your Roadmap <i class="fa-solid fa-arrow-right-long"></i></button>
+        <button onclick="window.location.href='/SignUp/login.php'">Explore Your Roadmap <i class="fa-solid fa-arrow-right-long"></i></button>
         </div>
         </div>
         <div class="hero-Right">
