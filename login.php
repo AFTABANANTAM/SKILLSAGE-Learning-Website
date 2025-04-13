@@ -8,7 +8,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
     />
-    <link rel="stylesheet" href="login.css" />
+    <link rel="stylesheet" href="Assets/login.css" />
     <title>Login Page | Caged coder</title>
   </head>
 
@@ -69,7 +69,7 @@
       </div>
     </div>
 
-    <script src="login.js"></script>
+    <script src="Assets/login.js"></script>
   </body>
 </html>
 <?php
