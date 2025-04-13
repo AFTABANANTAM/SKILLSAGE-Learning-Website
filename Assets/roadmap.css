@@ -24,11 +24,6 @@ body {
   background-color: var(--primary);
 }
 
-#logo{
-  border:5px solid rgb(49, 158, 237);
-  border-radius:50%;
-}
-
 .container {
   position: relative;
   max-width: 1200px;
