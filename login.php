@@ -15,7 +15,7 @@
   <body>
     <div class="container" id="container">
       <div class="form-container sign-up">
-      <form action="http://localhost:8085/mongodb_php/BYTEVERSE_PROJECT/SignUp/login.php" method="POST">
+      <form action="login.php" method="POST">
   <h1>Create Account</h1>
   <span>or use your email for registration</span>
 
@@ -34,7 +34,7 @@
 </form>
       </div>
       <div class="form-container sign-in">
-      <form action="http://localhost:8085/mongodb_php/BYTEVERSE_PROJECT/SignUp/login.php" method="POST">
+      <form action="login.php" method="POST">
   <h1>Sign In</h1>
   <div class="social-icons">
     <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
