@@ -31,7 +31,7 @@
             <div class="hero-content">
         <h1>One Path Doesn't Fit All - <span>Discover </span>Yours with IQ-Based Guidance.</h1>
         <p>Get personalized roadmaps based on your IQ skills,with expert mentorship to guide you every step of the way.</p>
-        <button onclick="window.location.href='/SignUp/login.php'">Explore Your Roadmap <i class="fa-solid fa-arrow-right-long"></i></button>
+        <button onclick="window.location.href='login.php'">Explore Your Roadmap <i class="fa-solid fa-arrow-right-long"></i></button>
         </div>
         </div>
         <div class="hero-Right">
