@@ -1,0 +1,125 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    
+        background-color: #F4F8FB;
+        color: #4A4A4A;
+        font-family: 'Helvetica Neue', sans-serif;
+        background:url("bg_image.avif");
+}
+
+#heading{
+    text-align:center;
+    color:rgb(28, 179, 179);
+    margin:1rem 0;
+}
+
+.information{
+    width:90%;
+    margin-right:auto;
+    margin-left:auto;
+    border:2px solid #3d84a8;
+    padding:20px 20px 20px 40px;
+    border-radius:15px;
+    box-shadow:0px 0px 10px 5px #4e4c4c;
+    margin-bottom:2rem;
+}
+
+.heading{
+    color:white;
+    text-align:center;
+    margin-top:3rem;
+    font-size:38px;
+}
+
+.information p{
+    text-align:center;
+    overflow:hidden;
+    line-height:24px;
+}
+#showMore{
+    color:rgb(223, 83, 83);
+    font-size:20px;
+}
+#level{
+    width:90%;
+    margin-right:auto;
+    margin-left:auto;
+    border:2px solid rgb(28,179,179);
+    margin-bottom:2rem;
+    border-radius:15px;
+    box-shadow:0px 0px 10px 5px #4e4c4c;
+    padding:40px;
+}
+h1{
+    text-align:center;
+    font-weight:400;
+    margin-bottom:1rem;
+    color: rgb(28,179,179);
+    font-size:40px;
+}
+.poetsen-one-regular {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+ul.tech li::marker {
+    content: "🚀 ";
+    font-size:24px;
+    margin-top:1.5rem;
+  }
+#knowledge-guide{
+    display:grid;
+    grid-template-columns:50% 50%;
+    gap:30px;
+    margin-bottom:10px;
+}
+img{
+    border-radius:50%;
+}
+.tech{
+    font-weight:600;
+}
+#learnMore{
+    background-color:rgb(28, 179, 179);
+    color:#F4F8FB;
+    border-radius:10px;
+    padding:10px;
+    font-size:16px;
+    outline:none;
+    border:none;
+    user-select: none;
+    margin:10px;
+    text-align:center;
+    margin-left:30%;
+    margin-top:1.5rem;
+}
+#learnMore:hover{
+    color:rgb(28, 179, 179);
+    background-color:white;
+    border-radius:20px;
+    border:2px solid rgb(28, 179, 179); 
+}
+ul.info li::marker {
+    content: "✅ ";
+    font-size:22px;
+    margin-top:1.5rem;
+  }
+ul.sub-info li::marker{
+    content: "💡 ";
+    font-size:18px;
+    margin-top:1.5rem;
+}
+img{
+    border:2px solid rgb(68, 30, 30);
+    box-shadow:0px 0px 10px 5px rgb(86, 55, 47);
+
+}
+img:hover{
+    transform:scale(1.09);
+}
